@@ -293,7 +293,7 @@ us_map <- get_stadiamap(
 )
 
 
-register_google(key = "AIzaSyBIm3NbMyFRXcriKm5rbMoTt3wxKUUJ3qg")
+register_google(key = "") #check google cloud for this
 
 hdf <- get_map("houston, texas")
 ggmap(hdf, extent = "normal")
